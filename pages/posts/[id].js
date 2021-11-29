@@ -9,6 +9,7 @@ export default function Post({ postData }) {
     <Layout>
       <Head>
         <title>{postData.id}</title>
+        <meta name="description" content={postData.id}></meta>
       </Head>
       <article>
         <h1 >{postData.id}</h1>
